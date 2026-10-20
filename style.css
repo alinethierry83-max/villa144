@@ -387,3 +387,14 @@ br.m { display: none; }
 .hero-arch { margin: 0 auto 28px; }
 .hero-arch + h1 + .icons { margin: 18px auto 26px; }
 section:first-of-type .hero-arch { margin-top: 0; }
+/* Espacements resserrés entre sections */
+section { padding: 60px 0; }
+@media (max-width: 700px) { section { padding: 34px 0; } }
+/* WhatsApp */
+@media (max-width: 900px) {
+  .mobile-bar { grid-template-columns: 1fr 1fr 1fr; }
+  .mobile-bar a { letter-spacing: .06em; padding: 15px 4px; }
+  .mobile-bar .wa { background: #1f9d55; color: #fff; }
+}
+.ccard-btns { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.btn.wa-btn { background: #1f9d55; border-color: #1f9d55; color: #fff; }
