@@ -394,7 +394,8 @@ section { padding: 60px 0; }
 @media (max-width: 900px) {
   .mobile-bar { grid-template-columns: 1fr 1fr 1fr; }
   .mobile-bar a { letter-spacing: .06em; padding: 15px 4px; }
-  .mobile-bar .wa { background: #1f9d55; color: #fff; }
+
 }
 .ccard-btns { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
 .btn.wa-btn { background: #1f9d55; border-color: #1f9d55; color: #fff; }
+.mobile-bar .wa, .mobile-bar .wa:visited { background: #1f9d55 !important; color: #fff !important; }
