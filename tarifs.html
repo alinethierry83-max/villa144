@@ -105,6 +105,16 @@
  ]
 }
 </script>
+<style>
+.carte-sub { padding: 14px 0 0; }
+.carte-group .carte-item + .carte-sub { margin-top: 6px; border-top: 1px solid var(--line); }
+.carte-sub b { display: block; font-family: var(--serif); font-weight: 500; font-size: 1.25rem; line-height: 1.25; color: var(--navy); }
+.carte-item.dur { padding: 5px 0 5px 14px; }
+.carte-item.dur + .carte-item.dur { border-top: 0; }
+.carte-item.dur span b { font-family: var(--sans); font-weight: 400; font-size: 1rem; }
+.carte-item.dur em { font-size: 1.15rem; }
+@media (max-width: 560px) { .carte-sub b { font-size: 1.1rem; } .carte-item.dur { padding-left: 10px; } }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -137,26 +147,30 @@
     <div class="carte">
       <div class="carte-group">
         <h2>Le spa</h2>
-        <a class="carte-item" href="spa-privatif-jacuzzi-toulon.html"><span><b>Jacuzzi extérieur privatisé</b><small>2 h · jusqu'à 4 personnes</small></span><i></i><em>100 €<small>le groupe</small></em></a>
-        <a class="carte-item" href="spa-nocturne-toulon.html"><span><b>Spa nocturne</b><small>2 h en soirée · jusqu'à 4 personnes · du 15 juin au 15 septembre</small></span><i></i><em>100 €<small>le groupe</small></em></a>
+        <a class="carte-item" href="spa-privatif-jacuzzi-toulon.html"><span><b>Jacuzzi extérieur</b><small>2 h, jusqu'à 4 personnes<br>Collation comprise</small></span><i></i><em>100 €<small>le groupe</small></em></a>
+        <a class="carte-item" href="spa-nocturne-toulon.html"><span><b>Spa nocturne</b><small>2 h en soirée, jusqu'à 4 personnes<br>Du 15 juin au 15 septembre<br>Collation comprise</small></span><i></i><em>100 €<small>le groupe</small></em></a>
       </div>
       <div class="carte-group">
         <h2>Le hammam</h2>
-        <a class="carte-item" href="hammam-privatif-toulon.html"><span><b>Hammam privatisé</b><small>1 h · jusqu'à 2 personnes · collation comprise</small></span><i></i><em>60 €<small>pour deux</small></em></a>
-        <a class="carte-item" href="hammam-privatif-toulon.html#rituel"><span><b>Rituel de beauté marocaine</b><small>2 h · jusqu'à 2 personnes · savon noir, rassoul, gant et huile · collation comprise</small></span><i></i><em>85 €<small>pour deux</small></em></a>
+        <a class="carte-item" href="hammam-privatif-toulon.html"><span><b>Hammam simple</b><small>1 h, jusqu'à 2 personnes<br>Collation comprise</small></span><i></i><em>60 €<small>pour deux</small></em></a>
+        <a class="carte-item" href="hammam-privatif-toulon.html#rituel"><span><b>Rituel de beauté</b><small>2 h, jusqu'à 2 personnes<br>Collation comprise</small></span><i></i><em>85 €<small>pour deux</small></em></a>
       </div>
       <div class="carte-group">
         <h2>La sonothérapie</h2>
-        <a class="carte-item" href="sonotherapie-toulon.html"><span><b>Soin d'harmonisation sonore</b><small>1 h · séance individuelle</small></span><i></i><em>60 €</em></a>
+        <a class="carte-item" href="sonotherapie-toulon.html"><span><b>Soin d'harmonisation sonore</b><small>1 h, séance individuelle</small></span><i></i><em>60 €</em></a>
       </div>
       <div class="carte-group">
         <h2>Les formules combinées</h2>
-        <a class="carte-item" href="formules-sonotherapie-spa.html"><span><b>Sonothérapie &amp; Spa</b><small>une heure · deux heures</small></span><i></i><em>70 € · 90 €</em></a>
-        <a class="carte-item" href="formules-sonotherapie-spa.html"><span><b>Sonothérapie &amp; Hammam</b><small>une heure · deux heures</small></span><i></i><em>70 € · 90 €</em></a>
+        <div class="carte-sub"><b>Sonothérapie &amp; Spa</b></div>
+        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>1 heure</b></span><i></i><em>70 €</em></a>
+        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>2 heures</b></span><i></i><em>90 €</em></a>
+        <div class="carte-sub"><b>Sonothérapie &amp; Hammam</b></div>
+        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>1 heure</b></span><i></i><em>70 €</em></a>
+        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>2 heures</b></span><i></i><em>90 €</em></a>
       </div>
     </div>
     <div class="actions" style="margin-top:30px;justify-content:center"><a class="btn" href="contact.html#reservation">Réserver</a></div>
-    <p class="note" style="margin-top:22px">Réservation en ligne ou par téléphone au <span style="white-space:nowrap">07 70 06 75 68</span>.<br>Paiement en ligne sur Resalib, par Wero ou en espèces à l'arrivée.<br><b>Votre réservation est validée après confirmation.</b></p>
+    <p class="note" style="margin-top:22px">Réservation en ligne ou par téléphone au <span style="white-space:nowrap">07 70 06 75 68</span>.<br>Paiement en ligne sur Resalib pour une séance individuelle. Par Wero ou en espèces à l'arrivée.<br><b>Votre réservation est validée après confirmation.</b></p>
   </div>
 </section>
 
@@ -176,7 +190,7 @@
       <div>
         <h3>Villa 144</h3>
         <p>Spa privatisé, hammam et sonothérapie.</p>
-        <p>101A Chemin des Institutrices<br>83200 Le Revest-les-Eaux<br>Sur réservation<br>Paiement en ligne sur Resalib, par Wero ou en espèces sur place</p>
+        <p>101A Chemin des Institutrices<br>83200 Le Revest-les-Eaux<br>Sur réservation<br>Paiement en ligne sur Resalib pour une séance individuelle. Par Wero ou en espèces à l'arrivée.</p>
       </div>
       <div>
         <h3>Contact</h3>
