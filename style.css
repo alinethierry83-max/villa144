@@ -406,3 +406,5 @@ section:first-of-type .icons.n4:not(.occ) > div { white-space: nowrap; }
 .pratique dt { font-weight: 700; color: var(--navy); }
 .pratique dd { margin: 0; color: var(--muted); }
 @media (max-width: 560px) { .pratique > div { grid-template-columns: 1fr; gap: 2px; padding: 12px 4px; } }
+/* Avis : grille 2 x 2 quand un bloc compte 4 avis */
+@media (min-width: 700px) { .reviews.four { grid-template-columns: repeat(2, 1fr); } }
