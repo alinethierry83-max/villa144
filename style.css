@@ -414,4 +414,12 @@ body { font-variant-numeric: lining-nums; }
 
 /* Ligne d'appel vers le rituel : police du texte courant, droite et plus contrastée */
 .keylink { text-align: center; font-family: var(--sans); font-size: 1.08rem; line-height: 1.5; color: var(--text); margin: 20px 0 22px; }
-.keylink a { font-weight: 700; color: var(--navy); text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.keylink a { font-weight: 400; color: var(--navy); text-decoration: underline; text-decoration-color: var(--navy); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+
+/* Logo plus grand sur téléphone */
+@media (max-width: 860px) {
+  .site-header { padding-top: 22px; }
+  .brand img { width: 92px; height: 98px; }
+  .brand span { font-size: 2.15rem; margin-top: 4px; }
+  .brand small { font-size: 1rem; }
+}
