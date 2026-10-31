@@ -408,3 +408,10 @@ section:first-of-type .icons.n4:not(.occ) > div { white-space: nowrap; }
 @media (max-width: 560px) { .pratique > div { grid-template-columns: 1fr; gap: 2px; padding: 12px 4px; } }
 /* Avis : grille 2 x 2 quand un bloc compte 4 avis */
 @media (min-width: 700px) { .reviews.four { grid-template-columns: repeat(2, 1fr); } }
+
+/* Chiffres alignés sur la ligne de base (plus lisibles) avec la police Playfair Display */
+body { font-variant-numeric: lining-nums; }
+
+/* Ligne d'appel vers le rituel : police du texte courant, droite et plus contrastée */
+.keylink { text-align: center; font-family: var(--sans); font-size: 1.08rem; line-height: 1.5; color: var(--text); margin: 20px 0 22px; }
+.keylink a { font-weight: 700; color: var(--navy); text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 4px; }
