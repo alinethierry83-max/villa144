@@ -36,7 +36,7 @@
  "description": "Spa privatisé près de Toulon : jacuzzi extérieur (jusqu'à 4 personnes), hammam (jusqu'à 2 personnes) et sonothérapie au Revest-les-Eaux, dans un jardin avec vue sur le mont Faron.",
  "telephone": "+33770067568",
  "priceRange": "60 € - 100 €",
- "paymentAccepted": "Carte bancaire (paiement en ligne via Resalib), Wero, Espèces",
+ "paymentAccepted": "Wero, Espèces",
  "currenciesAccepted": "EUR",
  "address": {
   "@type": "PostalAddress",
@@ -62,7 +62,6 @@
   "jobTitle": "Praticienne en sonothérapie"
  },
  "sameAs": [
-  "https://www.resalib.fr/praticien/130999-aline-thierry-spa-le-revest-les-eaux",
   "https://www.facebook.com/villa144.var"
  ],
  "amenityFeature": [
@@ -102,7 +101,7 @@
    "name": "Où faire une journée spa dans le Var ?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Villa 144, au Revest-les-Eaux, propose une journée spa privatisée à 8 km de Toulon : 2 heures de jacuzzi extérieur (100 € pour le groupe), 1 heure de hammam (60 €, seul ou à deux), le rituel de beauté marocaine de 2 heures (85 €, seul ou à deux) ou une formule avec sonothérapie (70 € à 90 €), collation comprise. L'espace est réservé à votre groupe, jusqu'à 4 personnes pour le jacuzzi et 2 pour le hammam."
+    "text": "Villa 144, au Revest-les-Eaux, propose une journée spa privatisée à 8 km de Toulon : 2 heures de jacuzzi extérieur (100 € pour le groupe), 1 heure de hammam (60 €, seul ou à deux), le rituel de beauté marocaine de 2 heures (85 €, seul ou à deux) ou une formule avec sonothérapie (70 € à 90 €), collation comprise sauf pour les formules d'une heure. L'espace est réservé à votre groupe, jusqu'à 4 personnes pour le jacuzzi et 2 pour le hammam."
    }
   },
   {
@@ -118,23 +117,7 @@
    "name": "Comment se déroule une séance de sonothérapie ?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "La séance dure 1 heure et se fait en individuel. Vous restez habillé, confortablement allongé. Aline repère les chakras en déséquilibre, puis les harmonise par le son : des fréquences cristallines et aiguës pour les chakras du haut, des sons graves et profonds pour les chakras du bas. Tarif : 60 €."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "Qu'est-ce qu'une harmonisation sonore des chakras ?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "C'est un soin énergétique par le son. Les centres énergétiques (chakras) qui semblent en déséquilibre sont repérés, puis rééquilibrés avec les fréquences qui leur correspondent : sons aigus de la harpe de cristal, du bol en cristal et des carillons Koshi pour le haut du corps, sons graves du gong, des tambours et des bols tibétains pour le bas. Une pratique de bien-être, qui ne remplace pas un avis médical."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "Quelle différence entre voyage sonore et harmonisation sonore ?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Le voyage sonore (30 minutes, dans la formule combinée d'une heure) est une immersion dans les sons : vous vous allongez et vous vous laissez porter. L'harmonisation sonore (1 heure, en séance seule ou dans la formule combinée de 2 heures) est un soin sur mesure : après un échange, Aline repère les chakras en déséquilibre, puis les rééquilibre avec les fréquences adaptées."
+    "text": "La séance dure 1 heure, en individuel ou en duo. Vous restez habillé, confortablement allongé, et vous laissez les sons et les vibrations vous envelopper : gong, bols tibétains, harpe de cristal, carillons, tambour océan. En individuel, le soin est adapté à vos besoins du moment. Tarif : 60 € en individuel, 90 € pour deux."
    }
   },
   {
@@ -142,7 +125,7 @@
    "name": "Peut-on combiner sonothérapie et spa ?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Oui. Les formules Sonothérapie & Spa et Sonothérapie & Hammam existent en deux durées. Formule d'une heure (70 €) : 30 minutes de voyage sonore, puis 30 minutes de jacuzzi ou de hammam. Formule de deux heures (90 €) : une heure d'harmonisation sonore, puis une heure de jacuzzi ou de hammam."
+    "text": "Oui. Les formules Sonothérapie & Spa et Sonothérapie & Hammam existent en deux durées. Formule d'une heure (70 €) : 30 minutes de sonothérapie, puis 30 minutes de jacuzzi ou de hammam. Formule de deux heures (90 €) : une heure de sonothérapie, puis une heure de jacuzzi ou de hammam, collation comprise. En duo, la sonothérapie en plein air se prolonge aussi par une heure de jacuzzi (130 € pour deux, d'avril à octobre)."
    }
   },
   {
@@ -157,6 +140,16 @@
  "@context": "https://schema.org"
 }
 </script>
+<style>
+.badge-wrap { position: relative; }
+.badge { position: absolute; top: 18px; left: 18px; z-index: 1; background: var(--gold); color: #fff; font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; padding: 6px 10px; border-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
+.occ-more { display: inline-block; margin-top: 6px; font-size: .85rem; color: var(--gold); text-decoration: underline; text-underline-offset: 3px; }
+.gift-band { background: var(--beige); }
+.gift-band .split { align-items: center; }
+.gift-band-img { padding: 10px; }
+.gift-band-img img { display: block; width: 100%; height: auto; transform: rotate(-2deg); box-shadow: 0 18px 40px rgba(15,58,87,.22), 0 3px 8px rgba(15,58,87,.12); }
+@media (max-width: 820px) { .gift-band .split > div:last-child { text-align: center; } .gift-band .actions { justify-content: center; } }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -200,7 +193,7 @@
 <h2>Un moment pour chaque envie</h2>
     <div class="icons n4 occ">
       <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 18.5s-5.5-3.4-5.5-7.6A3 3 0 0 1 8 9a3 3 0 0 1 5.5 1.9c0 4.2-5.5 7.6-5.5 7.6z"/><path d="M16 16.5s-5.5-3.4-5.5-7.6A3 3 0 0 1 16 7a3 3 0 0 1 5.5 1.9c0 4.2-5.5 7.6-5.5 7.6z"/></svg></span><b>Moment à deux</b><p>Pour vous retrouver loin du quotidien.</p></div>
-      <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="10" width="17" height="10.5" rx="1"/><rect x="2.5" y="7" width="19" height="3.2" rx=".8"/><path d="M12 7v13.5"/><path d="M12 7c-1.2-2.6-4.8-3.6-5.4-1.6C6.1 7 9.5 7 12 7zM12 7c1.2-2.6 4.8-3.6 5.4-1.6C17.9 7 14.5 7 12 7z"/></svg></span><b>Cadeau</b><p>Une expérience plutôt qu'un objet.</p></div>
+      <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="10" width="17" height="10.5" rx="1"/><rect x="2.5" y="7" width="19" height="3.2" rx=".8"/><path d="M12 7v13.5"/><path d="M12 7c-1.2-2.6-4.8-3.6-5.4-1.6C6.1 7 9.5 7 12 7zM12 7c1.2-2.6 4.8-3.6 5.4-1.6C17.9 7 14.5 7 12 7z"/></svg></span><b>Cadeau</b><p>Une expérience plutôt qu'un objet.</p><a class="occ-more" href="bons-cadeaux.html">Voir les bons cadeaux</a></div>
       <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 3.5l4 1.1-.9 4.4a2.2 2.2 0 0 1-4.3-1.2z"/><path d="M6.6 9.7 5 15.5M3 15l4 1.1"/><path d="M18.5 3.5l-4 1.1.9 4.4a2.2 2.2 0 0 0 4.3-1.2z"/><path d="M17.4 9.7 19 15.5M21 15l-4 1.1"/><path d="M12 2v2M10.3 2.6l.6 1M13.7 2.6l-.6 1"/></svg></span><b>Entre amies &amp; EVJF</b><p>Une occasion pour se retrouver et célébrer.</p></div>
       <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h12v3.5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V11z"/><path d="M16 12.5h1.5a2.2 2.2 0 0 1 0 4.4H15.6"/><path d="M3 21h14"/><path d="M8 3.5c-.9 1 .9 2 0 3.2M11.5 3.5c-.9 1 .9 2 0 3.2"/></svg></span><b>Besoin de souffler</b><p>Une vraie pause, loin du stress.</p></div>
     </div>
@@ -217,13 +210,25 @@
 <h2>Jacuzzi, hammam ou sonothérapie :<br>quelle expérience préférez-vous ?</h2>
     <div class="cards" style="margin-top:28px">
       <article class="card"><div class="img"><img src="jacuzzi-jardin-revest-les-eaux.jpg" alt="Jacuzzi extérieur privatisé dans le jardin de Villa 144" loading="lazy" width="2000" height="1125"></div>
-        <div class="body"><h3>Jacuzzi extérieur</h3><p class="tag">Détente en pleine nature.</p><div class="meta">2 h · jusqu'à 4 pers. · <b>100 €</b> le groupe</div><div class="card-actions"><a class="btn" href="https://wa.me/33770067568?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20jacuzzi%20privatis%C3%A9%20%282%20h%2C%20jusqu%27%C3%A0%204%20personnes%29.%20Quelles%20sont%20vos%20disponibilit%C3%A9s%20%3F">Réserver</a><a class="btn outline" href="spa-privatif-jacuzzi-toulon.html">En savoir plus</a></div></div></article>
-      <article class="card"><div class="img"><img src="hammam-porte-vitree.jpg" alt="Hammam privatif de Villa 144 : banc en mosaïque vu depuis la porte vitrée" loading="lazy" width="900" height="1200" style="aspect-ratio:3/4"></div>
+        <div class="body"><h3>Jacuzzi extérieur</h3><p class="tag">Détente en pleine nature.</p><div class="meta">2 h · jusqu'à 4 pers. · <b>100&nbsp;€</b>&nbsp;le&nbsp;groupe</div><div class="card-actions"><a class="btn" href="https://wa.me/33770067568?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20jacuzzi%20privatis%C3%A9%20%282%20h%2C%20jusqu%27%C3%A0%204%20personnes%29.%20Quelles%20sont%20vos%20disponibilit%C3%A9s%20%3F">Réserver</a><a class="btn outline" href="spa-privatif-jacuzzi-toulon.html">En savoir plus</a></div></div></article>
+      <article class="card"><div class="img"><img src="hammam-porte-vitree.jpg" alt="Hammam privatif de Villa 144 : banc en mosaïque vu depuis la porte vitrée" loading="lazy" width="900" height="1200" style="object-position:center 65%"></div>
         <div class="body"><h3>Hammam</h3><p class="tag">Chaleur et ressourcement.</p><div class="meta"><div>Hammam simple<br>1 h, jusqu'à 2 pers. : <b>60&nbsp;€</b></div><div style="margin-top:8px">Rituel de beauté<br>2 h, jusqu'à 2 pers. : <b>85&nbsp;€</b></div></div><div class="card-actions"><a class="btn" href="https://wa.me/33770067568?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20hammam%20privatis%C3%A9%20%281%20h%2C%20jusqu%27%C3%A0%202%20personnes%29.%20Quelles%20sont%20vos%20disponibilit%C3%A9s%20%3F">Réserver</a><a class="btn outline" href="hammam-privatif-toulon.html">En savoir plus</a></div></div></article>
-      <article class="card"><div class="img"><img src="sonotherapie-instruments-gong-bols-toulon.jpg" alt="Instruments de sonothérapie : gong, bols tibétains, harpe de cristal, tambour océan" loading="lazy" width="995" height="584"></div>
-        <div class="body"><h3>Sonothérapie</h3><p class="tag">Relaxation profonde.</p><div class="meta">1 h · séance individuelle · <b>60 €</b></div><div class="card-actions"><a class="btn" href="https://www.resalib.fr/praticien/130999-aline-thierry-spa-le-revest-les-eaux">Réserver</a><a class="btn outline" href="sonotherapie-toulon.html">En savoir plus</a></div></div></article>
-      <article class="card"><div class="img"><img src="formule-sonotherapie-hammam-mosaique.jpg" alt="Formule combinée sonothérapie et hammam à Villa 144" loading="lazy" width="1282" height="1024"></div>
-        <div class="body"><h3>Formules combinées</h3><p class="tag">Sons, chaleur et détente.</p><div class="meta">1 h · <b>70 €</b> / 2 h · <b>90 €</b></div><div class="card-actions"><a class="btn" href="https://www.resalib.fr/praticien/130999-aline-thierry-spa-le-revest-les-eaux">Réserver</a><a class="btn outline" href="formules-sonotherapie-spa.html">En savoir plus</a></div></div></article>
+      <article class="card"><div class="img badge-wrap"><span class="badge">Nouveau : en duo</span><img src="sonotherapie-instruments-gong-bols-toulon.jpg" alt="Instruments de sonothérapie : gong, bols tibétains, harpe de cristal, tambour océan" loading="lazy" width="995" height="584"></div>
+        <div class="body"><h3>Sonothérapie</h3><p class="tag">Relaxation profonde.</p><div class="meta"><div>1 h · séance individuelle · <b>60&nbsp;€</b></div><div style="margin-top:4px">1 h · en duo, en plein air · <b>90&nbsp;€</b></div></div><div class="card-actions"><a class="btn" href="sonotherapie-toulon.html#offres">Réserver</a><a class="btn outline" href="sonotherapie-toulon.html">En savoir plus</a></div></div></article>
+      <article class="card"><div class="img"><img src="formule-sonotherapie-spa.jpg" alt="Formule combinée sonothérapie et spa à Villa 144 : gong et jacuzzi dans le jardin" loading="lazy" width="1536" height="1024"></div>
+        <div class="body"><h3>Formules combinées</h3><p class="tag">Sons, chaleur et détente.</p><div class="meta"><div>1 h · séance individuelle · <b>70&nbsp;€</b></div><div style="margin-top:4px">2 h · séance individuelle · <b>90&nbsp;€</b></div></div><div class="card-actions"><a class="btn" href="https://wa.me/33770067568?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20une%20formule%20combin%C3%A9e%20%28sonoth%C3%A9rapie%20%26%20spa%20ou%20hammam%29.%20Quelles%20sont%20vos%20disponibilit%C3%A9s%20%3F">Réserver</a><a class="btn outline" href="formules-sonotherapie-spa.html">En savoir plus</a></div></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="gift-band">
+  <div class="wrap split">
+    <div class="gift-band-img"><img src="bon-cadeau-exemple-v1.jpg" alt="Exemple de bon cadeau Villa 144" loading="lazy" width="1588" height="1118"></div>
+    <div>
+      <span class="eyebrow">Bon cadeau</span>
+      <h2>Offrez un vrai moment de détente</h2>
+      <p>Jacuzzi, hammam, rituel de beauté ou sonothérapie : un bon au nom de la personne, envoyé en PDF, prêt à offrir ou à imprimer.</p>
+      <div class="actions"><a class="btn" href="bons-cadeaux.html">Découvrir les bons cadeaux</a></div>
     </div>
   </div>
 </section>
@@ -296,7 +301,7 @@
     <span class="eyebrow">Infos pratiques</span>
 <h2>Avant de venir</h2>
     <dl class="pratique">
-      <div><dt>Réservation</dt><dd>Sur Resalib pour une personne, par WhatsApp ou téléphone à deux ou plus. Paiement en ligne, par Wero ou en espèces sur place.</dd></div>
+      <div><dt>Réservation</dt><dd>Par WhatsApp ou par téléphone. Paiement par Wero ou en espèces sur place.</dd></div>
       <div><dt>Horaires</dt><dd>7 jours sur 7, sur réservation. Dernière séance terminée à 18 h de fin octobre à fin mars, à 21 h le reste de l'année.</dd></div>
       <div><dt>Météo</dt><dd>En cas de mauvais temps, la séance peut être reportée, ou le spa extérieur remplacé par un hammam.</dd></div>
       <div><dt>Sanitaires</dt><dd>Un WC et une douche indépendants sont à votre disposition.</dd></div>
@@ -312,12 +317,10 @@
   <div class="wrap narrow center">
     <h2>Questions fréquentes</h2>
     <details><summary>Où trouver un spa privatif dans le Var ?</summary><p>Villa 144 propose un spa privatisé au Revest-les-Eaux (83200), à 8 km de Toulon, avec vue sur le mont Faron. Le jacuzzi extérieur est réservé à votre groupe, jusqu'à 4 personnes, et le hammam l'est aussi, jusqu'à 2 personnes.</p></details>
-<details><summary>Où faire une journée spa dans le Var ?</summary><p>Villa 144, au Revest-les-Eaux, propose une journée spa privatisée à 8 km de Toulon : 2 heures de jacuzzi extérieur (100 € pour le groupe), 1 heure de hammam (60 €, seul ou à deux), le rituel de beauté marocaine de 2 heures (85 €, seul ou à deux) ou une formule avec sonothérapie (70 € à 90 €), collation comprise. L'espace est réservé à votre groupe, jusqu'à 4 personnes pour le jacuzzi et 2 pour le hammam.</p></details>
+<details><summary>Où faire une journée spa dans le Var ?</summary><p>Villa 144, au Revest-les-Eaux, propose une journée spa privatisée à 8 km de Toulon : 2 heures de jacuzzi extérieur (100 € pour le groupe), 1 heure de hammam (60 €, seul ou à deux), le rituel de beauté marocaine de 2 heures (85 €, seul ou à deux) ou une formule avec sonothérapie (70 € à 90 €), collation comprise sauf pour les formules d'une heure. L'espace est réservé à votre groupe, jusqu'à 4 personnes pour le jacuzzi et 2 pour le hammam.</p></details>
 <details><summary>Combien coûte le spa privatif à Villa 144 ?</summary><p>Le jacuzzi extérieur privatisé coûte 100 € pour 2 heures et pour le groupe (jusqu'à 4 personnes), collation comprise. Le hammam privatisé coûte 60 € pour 1 heure, jusqu'à 2 personnes, collation comprise. Le rituel de beauté marocaine (savon noir, gommage au gant kessa, huile d’argan) dure 2 heures et coûte 85 €, seul ou à deux, collation comprise.</p></details>
-<details><summary>Comment se déroule une séance de sonothérapie ?</summary><p>La séance dure 1 heure et se fait en individuel. Vous restez habillé, confortablement allongé. Aline repère les chakras en déséquilibre, puis les harmonise par le son : des fréquences cristallines et aiguës pour les chakras du haut, des sons graves et profonds pour les chakras du bas. Tarif : 60 €.</p></details>
-<details><summary>Qu'est-ce qu'une harmonisation sonore des chakras ?</summary><p>C'est un soin énergétique par le son. Les centres énergétiques (chakras) qui semblent en déséquilibre sont repérés, puis rééquilibrés avec les fréquences qui leur correspondent : sons aigus de la harpe de cristal, du bol en cristal et des carillons Koshi pour le haut du corps, sons graves du gong, des tambours et des bols tibétains pour le bas. Une pratique de bien-être, qui ne remplace pas un avis médical.</p></details>
-<details><summary>Quelle différence entre voyage sonore et harmonisation sonore ?</summary><p>Le voyage sonore (30 minutes, dans la formule combinée d'une heure) est une immersion dans les sons : vous vous allongez et vous vous laissez porter. L'harmonisation sonore (1 heure, en séance seule ou dans la formule combinée de 2 heures) est un soin sur mesure : après un échange, Aline repère les chakras en déséquilibre, puis les rééquilibre avec les fréquences adaptées.</p></details>
-<details><summary>Peut-on combiner sonothérapie et spa ?</summary><p>Oui. Les formules Sonothérapie & Spa et Sonothérapie & Hammam existent en deux durées. Formule d'une heure (70 €) : 30 minutes de voyage sonore, puis 30 minutes de jacuzzi ou de hammam. Formule de deux heures (90 €) : une heure d'harmonisation sonore, puis une heure de jacuzzi ou de hammam.</p></details>
+<details><summary>Comment se déroule une séance de sonothérapie ?</summary><p>La séance dure 1 heure, en individuel ou en duo. Vous restez habillé, confortablement allongé, et vous laissez les sons et les vibrations vous envelopper : gong, bols tibétains, harpe de cristal, carillons, tambour océan. En individuel, le soin est adapté à vos besoins du moment. Tarif : 60 € en individuel, 90 € pour deux.</p></details>
+<details><summary>Peut-on combiner sonothérapie et spa ?</summary><p>Oui. Les formules Sonothérapie & Spa et Sonothérapie & Hammam existent en deux durées. Formule d'une heure (70 €) : 30 minutes de sonothérapie, puis 30 minutes de jacuzzi ou de hammam. Formule de deux heures (90 €) : une heure de sonothérapie, puis une heure de jacuzzi ou de hammam, collation comprise. En duo, la sonothérapie en plein air se prolonge aussi par une heure de jacuzzi (130 € pour deux, d'avril à octobre).</p></details>
 <details><summary>Le spa est-il ouvert le soir ?</summary><p>Oui, du 15 juin au 15 septembre, Villa 144 propose un spa nocturne : 2 heures de jacuzzi privatisé illuminé à la tombée de la nuit, jusqu'à 4 personnes, 100 € le groupe, collation comprise.</p></details>
     <p><a href="faq.html">Toutes les questions →</a></p>
   </div>
@@ -339,7 +342,7 @@
       <div>
         <h3>Villa 144</h3>
         <p>Spa privatisé, hammam et sonothérapie.</p>
-        <p>101A Chemin des Institutrices<br>83200 Le Revest-les-Eaux<br>Sur réservation<br>Paiement en ligne sur Resalib pour une séance individuelle. Par Wero ou en espèces à l'arrivée.</p>
+        <p>101A Chemin des Institutrices<br>83200 Le Revest-les-Eaux<br>Sur réservation<br>Paiement par Wero ou en espèces.</p>
       </div>
       <div>
         <h3>Contact</h3>
