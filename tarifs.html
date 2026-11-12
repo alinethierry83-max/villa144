@@ -18,6 +18,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css?v=5">
+<style>
+/* z plus lisibles en italique : seuls les z et Z viennent d'une autre police */
+@font-face{font-family:"Z Villa";font-style:italic;font-weight:500;src:url(/villa-z-italique-v1.woff2) format("woff2");unicode-range:U+7A,U+5A}
+@font-face{font-family:"Z Villa";font-style:normal;font-weight:500;src:url(/villa-z-droit-v1.woff2) format("woff2");unicode-range:U+7A,U+5A}
+:root{--serif:"Z Villa","Playfair Display",Georgia,"Times New Roman",serif}
+</style>
 <script type="application/ld+json">
 {
  "@type": "DaySpa",
@@ -159,16 +165,16 @@
         <a class="carte-item" href="sonotherapie-toulon.html"><span><b>Sonothérapie en individuel</b><small>1 h, bol tibétain, gong, bol de cristal<br>Dans la véranda, toute l'année</small></span><i></i><em>60 €</em></a>
         <div class="carte-sub"><b>Sonothérapie en duo</b></div>
         <a class="carte-item" href="sonotherapie-toulon.html#duo"><span><b>1 heure</b><small>Sonothérapie à deux, en plein air sous la paillote<br>D'avril à octobre</small></span><i></i><em>90 €<small>pour deux</small></em></a>
-        <a class="carte-item" href="sonotherapie-toulon.html#duo"><span><b>2 heures</b><small>Sonothérapie à deux + 1 h de jacuzzi<br>D'avril à octobre<br>Collation comprise</small></span><i></i><em>130 €<small>pour deux</small></em></a>
+        <a class="carte-item" href="sonotherapie-toulon.html#duo"><span><b>2 heures</b><small>Sonothérapie à deux<br>+ 1 h de jacuzzi<br>D'avril à octobre<br>Collation comprise</small></span><i></i><em>130 €<small>pour deux</small></em></a>
       </div>
       <div class="carte-group">
         <h2>Les formules combinées</h2>
         <div class="carte-sub"><b>Sonothérapie &amp; Spa</b></div>
-        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>1 heure</b><small>30 min de sonothérapie + 30 min de jacuzzi</small></span><i></i><em>70 €</em></a>
-        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>2 heures</b><small>1 h de sonothérapie + 1 h de jacuzzi<br>Collation comprise</small></span><i></i><em>110 €</em></a>
+        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>1 heure</b><small>30 min de sonothérapie<br>+ 30 min de jacuzzi</small></span><i></i><em>70 €</em></a>
+        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>2 heures</b><small>1 h de sonothérapie<br>+ 1 h de jacuzzi<br>Collation comprise</small></span><i></i><em>110 €</em></a>
         <div class="carte-sub"><b>Sonothérapie &amp; Hammam</b></div>
-        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>1 heure</b><small>30 min de sonothérapie + 30 min de hammam</small></span><i></i><em>70 €</em></a>
-        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>2 heures</b><small>1 h de sonothérapie + 1 h de hammam<br>Collation comprise</small></span><i></i><em>110 €</em></a>
+        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>1 heure</b><small>30 min de sonothérapie<br>+ 30 min de hammam</small></span><i></i><em>70 €</em></a>
+        <a class="carte-item dur" href="formules-sonotherapie-spa.html"><span><b>2 heures</b><small>1 h de sonothérapie<br>+ 1 h de hammam<br>Collation comprise</small></span><i></i><em>110 €</em></a>
       </div>
     </div>
     <div class="actions" style="margin-top:30px;justify-content:center"><a class="btn" href="contact.html#reservation">Réserver</a></div>
